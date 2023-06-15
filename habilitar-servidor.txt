@@ -1,0 +1,3 @@
+Acesso ssh na instância da aws: ssh -i "iac-alura.pem" ubuntu@ec2-34-219-36-158.us-west-2.compute.amazonaws.com
+Para habilitar o servidor: nohup busybox httpd -f -p 8080 &
+IP público de acesso ao servidor: 34.219.36.158:8080
