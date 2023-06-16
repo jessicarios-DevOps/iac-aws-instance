@@ -15,8 +15,9 @@ Projeto de Infraestrutura como código criado para automatizar uma instância na
 ##
 
 ## Dicas
-- Altere algumas informações da máquina conforme a que você irá utilizar como: nome, ip, região do provedor, etc.
+- Altere algumas informações da máquina no maint.tf conforme a que você irá utilizar, como: nome, ip, região do provedor, etc.
 - Altere o ip do hosts.yml para o ip público da  sua instância criada na aws.
 - Para realizar a instalação do Terraform acesse: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+- Crie um par de chaves para a sua instância e e crie um arquivo .pem na pasta do projeto e cole a chave que foi criada na aws.
 
 
