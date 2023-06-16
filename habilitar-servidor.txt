@@ -1,6 +1,6 @@
 Acesso ssh na instância da aws: sssh -i "iac-alura.pem" ubuntu@ec2-34-219-125-200.us-west-2.compute.amazonaws.com
 PComando para habilitar o servidor: nohup busybox httpd -f -p 8080 &
-IP público de acesso ao servidor: 34.219.125.200:8080
+IP público de acesso ao servidor: 34.214.178.77:8080
 
 Comando para exeutar o playbook: ansible-playbook playbook.yml -u ubuntu --private-key iac-alura.pem -i hosts.yml
 -u de usuário
